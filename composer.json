@@ -1,0 +1,25 @@
+{
+    "name": "edgji/sentrystart",
+    "description": "User authentication and authorization quick start using Sentry",
+    "authors": [
+        {
+            "name": "Jose Eduardo Garcia Jimenez",
+            "email": "j.edgji@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "cartalyst/sentry": "2.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/commands",
+            "src/controllers"
+        ],
+        "psr-0": {
+            "Edgji\\Sentrystart": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
